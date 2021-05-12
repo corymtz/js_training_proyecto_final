@@ -1,0 +1,25 @@
+{
+  "name": "js_training_proyecto_final",
+  "version": "1.0.0",
+  "description": "Unit Test using Jest",
+  "main": "algoritmos.js",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "ts-jest": "^26.5.6"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corymtz/js_training_proyecto_final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corymtz/js_training_proyecto_final/issues"
+  },
+  "homepage": "https://github.com/corymtz/js_training_proyecto_final#readme"
+}
