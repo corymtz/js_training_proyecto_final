@@ -12,7 +12,20 @@ return arregloDos;
 //contar el numero de vocales *******
 
 const contarVocales=(cadenaConVocales)=>{
-return cadenaConVocales.match(/[aeiou]/gi).length;
+  try{
+        return cadenaConVocales.match(/[aeiou]/gi).length;
+  }catch (err){
+      return 0;
+  }
+}
+
+const contarLetrasA=(cadenaConLetrasA)=>{
+
+   try{
+        return cadenaConLetrasA.match(/[a]/gi).length;
+   }catch(error){
+        return 0;
+    }
 }
 
 //arreglo de numeros, dividirlos de3 en 3 e imprimir el menor de cada grupo 
@@ -82,4 +95,4 @@ const threeCompany=(input)=>{
 };
 
 
-module.exports = { cabiarArreglo, contarVocales, divideArregloGuardaElMenor, palindromo, factorial, bubbleSort, threeCompany };
+module.exports = { cabiarArreglo, contarVocales, divideArregloGuardaElMenor, palindromo, factorial, bubbleSort, threeCompany,contarLetrasA };
